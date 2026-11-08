@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 测试图片（避免提交大文件；如需提交小样例图，见下方说明）
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tif
+*.tiff
+
+# 但允许提交 samples 目录下的小样例图
+!samples/
+!samples/*.png
+!samples/*.jpg
